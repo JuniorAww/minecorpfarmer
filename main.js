@@ -92,6 +92,11 @@ async function command() {
   return command();
  };
  
+ if(cmd[0] === 'иди' && cmd[1] === 'нахуй') {
+  console.log(`ок`);
+  return command();
+ };
+ 
  
  console.log(cmd)
  if(cmd[0] === '') return command();

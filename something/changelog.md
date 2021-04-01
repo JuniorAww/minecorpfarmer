@@ -11,3 +11,11 @@
 * Простая автоматическая системка фарма ботами на /quake
 * Ручной ввод количества игр, которые сыграют боты
 * Анрег ботов в случае помехи
+
+---
+
+[**Main page**](README.md)
+
+[**Mini-documentation**](something/docs.md)
+
+[**Our VK-group**](https://vk.com/renaze)
