@@ -14,8 +14,4 @@
 
 ---
 
-[**Main page**](README.md)
-
-[**Mini-documentation**](something/docs.md)
-
 [**Our VK-group**](https://vk.com/renaze)

@@ -43,8 +43,4 @@
 
 ---
 
-[**Main page**](README.md)
-
-[**Changelog** ***0.2v***](something/changelog.md)
-
 [**Our VK-group**](https://vk.com/renaze)
