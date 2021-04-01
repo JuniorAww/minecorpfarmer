@@ -1,11 +1,9 @@
 {
 	"proxy": false,
 	"prefer_proxy": "socks5",
-	"nickname": "JuniorJrr",
-	"shuff_digits": false,
+	"nickname": null,
+	"shuff_digits": true,
 	"unregister": [
-		"lisa228",
-		"petmepls",
-		"ichmagfuchs"
+	
 	]
 }
