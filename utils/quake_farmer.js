@@ -99,7 +99,7 @@ async function main() {
  bot.once('end', () => { worker.login = false; });
  bot.once('kicked', (reason) => { console.log(reason) });
  
- await sleep(3000);
+ await sleep(5000);
  if(!worker.login) {
   console.log(`! ${worker.nick} не удалось войти`);
   bot = null; break;
@@ -193,7 +193,7 @@ async function end(workers) {
  require('fs').writeFileSync('./config.json', JSON.stringify(config, null, '\t'));
  await sleep(200);
  console.log(`! Фармилка /quake остановлена`);
- console.log('> ');
+ return command();
 };
 
 

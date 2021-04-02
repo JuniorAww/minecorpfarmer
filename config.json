@@ -3,7 +3,5 @@
 	"prefer_proxy": "socks5",
 	"nickname": null,
 	"shuff_digits": true,
-	"unregister": [
-	
-	]
+	"unregister": []
 }

@@ -56,9 +56,9 @@ async function command() {
   console.log(`(!) Фармилка уже запущена`);
   return command(); 
   };
-  require('./utils/quake_farmer.js')(times, farm_started);
+  require('./utils/quake_farmer.js')(times, farm_started, command);
   console.log(`Фармилка запущена`);
-  return command();
+  return;
  };
  
  if(cmd[0] === 'times' && Number(cmd[1])) {
@@ -78,8 +78,8 @@ async function command() {
  };
  
  if(cmd[0] === 'unreg' && cmd[1]) {
-  require("./utils/unreg.js")(cmd.join(' ').replace('unreg ',''));
-  return command();
+  require("./utils/unreg.js")(cmd.join(' ').replace('unreg ',''), command);
+  return;
  };
  
  if(cmd[0] === 'meow') {

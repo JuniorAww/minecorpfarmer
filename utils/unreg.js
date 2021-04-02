@@ -32,4 +32,5 @@ bot.on('message', function(msg) {
 console.log('Meow')
 console.log(process.argv)
 //console.log(bot)
+setTimeout(() => { command() }, 5000);
 };
